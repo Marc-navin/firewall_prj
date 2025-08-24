@@ -7,13 +7,15 @@ It shows how open ports can be restricted, improving local network security.Usin
 
 ⚙️ Features:
 
-Bash script to enable and configure UFW rules
+->Bash script to enable and configure UFW rules
 
-User choice to allow/block specific ports
+->User choice to allow/block specific ports
 
-Tested using nmap before and after applying firewall rules
+->Tested using nmap before and after applying firewall rules
 
-Screenshots included for proof of results
+->Screenshots included for proof of results
+
+""Requires Linux, ufw, nmap previously installed""
 
 🚀 How to Run
 
@@ -22,7 +24,7 @@ Screenshots included for proof of results
 
 "git clone https://github.com/<Marc-navin>/firewall_prj.git'
 
-"cd firewall-project/scripts"
+"cd firewall_prj/scripts"
 
 2. Run the script:
 "sudo bash firewall.sh"
@@ -31,6 +33,7 @@ Screenshots included for proof of results
 
 Before firewall rules:
 "nmap localhost"
+
 
 After firewall rules:
 "nmap localhost"
